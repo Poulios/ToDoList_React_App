@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name":"To go for a walk",
+    "condition": true
+}, {
+    "id": 2,
+    "name":" Play tennis",
+    "condition": true
+}, {
+    "id": 3,
+    "name":"Fix the steamer",
+    "condition": false
+}, {
+    "id": 4,
+    "name":"Feed cat",
+    "condition": true
+}, {
+    "id": 5,
+    "name":"Buy groceries",
+    "condition": false
+}, {
+    "id": 6,
+    "name":"Clean the house",
+    "condition": false
+}]
