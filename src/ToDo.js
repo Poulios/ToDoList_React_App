@@ -7,10 +7,15 @@ const ToDo = ({todo, handleToggle}) => {
         handleToggle(e.currentTarget.id)
     }
 
-    return (
-        <div id={todo.id} name="todo" value={todo.id} onClick={handleClick} className={todo.condition ? "strike" : ""}>
-            {todo.name}
-        </div>
+    return (        
+        <table>
+            <tbody>
+                <tr key={todo.id} name="todo" value={todo.id} onClick={handleClick} className={todo.condition ? "strike" : ""}>
+                    <td>{todo.name}</td>
+                    <td>{todo.due && todo.due} {!todo.due && '-'} </td>
+                </tr>
+            </tbody>
+        </table>
     );
 };
 
