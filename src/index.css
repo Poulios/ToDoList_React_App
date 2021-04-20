@@ -7,6 +7,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {  
+  background-color: rgba(0, 255, 255, 0.151);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -52,6 +56,14 @@ thead button {
 tbody td {
   padding: 0.5em;
   border-bottom: 1px solid #ccc;
+}
+
+td {
+  word-break: break-all;
+}
+
+#dueDate {
+  width: 150px;
 }
 
 tbody tr:hover {

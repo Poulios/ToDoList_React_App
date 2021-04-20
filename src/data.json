@@ -11,21 +11,21 @@
 }, {
     "id": 3,
     "name":"Fix the steamer",
-    "due": "2021-04-01",
+    "due": "2021-04-03",
     "condition": false
 }, {
     "id": 4,
     "name":"Feed cat",
-    "due": "2021-04-01",
+    "due": "2021-04-04",
     "condition": true
 }, {
     "id": 5,
     "name":"Buy groceries",
-    "due": "2021-04-01",
+    "due": "2021-04-16",
     "condition": false
 }, {
     "id": 6,
     "name":"Clean the house",
-    "due": "2021-04-01",
+    "due": "2021-04-05",
     "condition": false
 }]

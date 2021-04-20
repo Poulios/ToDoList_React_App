@@ -24,9 +24,11 @@ const ToDoForm = ({ addTask }) => {
     const date = today.toLocaleDateString()
     return (
         <form onSubmit={handleSubmit}>
-            <input value={userInput} type="text" onChange={handleChangeText} placeholder="Enter task..."/>
-            <input value={userDate} type="date" onChange={handleChangeDate} id="start" name="dateDue" min={date} max=""></input>
-            <button>Submit</button>
+            <textarea style= {{width:'80%'}} value={userInput} type="text" onChange={handleChangeText} placeholder="Enter task description..."/>
+            <input style= {{width:'50%'}} value={userDate} type="date" onChange={handleChangeDate} id="start" name="dateDue" min={date} max=""></input>
+            <br></br>
+            <br></br>
+            <button variant="outline-info" style= {{width:'40%', margin:'10px'}}>Create</button>
         </form>
     );
 };
