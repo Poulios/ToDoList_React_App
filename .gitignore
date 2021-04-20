@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+starting code 
+--> https://www.educative.io/blog/react-hooks-tutorial-todo-list
+
+What to learn next
+Congrats! You’ve now made a to do list using React hooks. If you found this to be fairly straightforward, play around with the code a bit and try to implement more functionality.
+
+Here are some extra things you can do to give you some ideas:
+
+1. Add the ability to create a due date for each task or a priority rating
+2. Give the ability to sort the list by the due date or priority 
+(--> https://www.smashingmagazine.com/2020/03/sortable-tables-react/
+--> https://codesandbox.io/embed/table-sorting-example-ur2z9?fontsize=14&hidenavigation=1&theme=dark)
+3. Delete button for each element
+4. Create a backend so your To Do List can persist
+5. Style application using React-Bootstrap or CSS-in-JS
+6. Employ the Context API by using the useContext hook instead of local state and props

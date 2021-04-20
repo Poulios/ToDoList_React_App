@@ -7,7 +7,65 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.App {  
+  background-color: rgba(0, 255, 255, 0.151);
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+#root {
+  text-align:center;
+  margin: 10px auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px 10px;
+}
+
+body {
+  font-family: 'open sans', sans-serif;
+  font-size: 16px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+thead button {
+  border: 0;
+  border-radius: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: inherit;
+  padding: 0.5em;
+  margin-bottom: 1px;
+}
+
+tbody td {
+  padding: 0.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+td {
+  word-break: break-all;
+}
+
+#dueDate {
+  width: 150px;
+}
+
+tbody tr:hover {
+  background-color: #eee;
 }
