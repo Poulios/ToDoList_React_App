@@ -1,3 +1,9 @@
+# A ToDo List implemented with React. 
+<br>
+
+                      
+![Final version of the app](https://github.com/Poulios/ToDoList_React_App/blob/branchname/sample_images/final.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
